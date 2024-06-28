@@ -107,3 +107,5 @@ if __name__ == "__main__":
 
     print(greet("Alice"))
     # help(greet)
+    # classic print
+    print('\033[31m  text \033[0m')
