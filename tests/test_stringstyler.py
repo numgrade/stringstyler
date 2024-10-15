@@ -8,11 +8,11 @@ from stringstyler import print_color_text, color_text
 
 
 @pytest.mark.parametrize(
-        'color, style, expected', 
-        [
-            ('red', None, "\x1b[31mHello, World!\x1b[0m\n"), 
-            ('green', 'bold', '\x1b[01;32mHello, World!\x1b[0m\n')
-        ]
+    "color, style, expected",
+    [
+        ("red", None, "\x1b[31mHello, World!\x1b[0m\n"),
+        ("green", "bold", "\x1b[01;32mHello, World!\x1b[0m\n"),
+    ],
 )
 def test_print_color_text(color, style, expected):
     """Test the print_color_text function."""
@@ -23,11 +23,11 @@ def test_print_color_text(color, style, expected):
 
 
 @pytest.mark.parametrize(
-        'color, style, expected', 
-        [
-            ('red', None, "\x1b[31mHello, World!\x1b[0m"), 
-            ('green', 'bold', '\x1b[01;32mHello, World!\x1b[0m')
-        ]
+    "color, style, expected",
+    [
+        ("red", None, "\x1b[31mHello, World!\x1b[0m"),
+        ("green", "bold", "\x1b[01;32mHello, World!\x1b[0m"),
+    ],
 )
 def test_color_text(color, style, expected):
     """Test the color_text decorator."""
