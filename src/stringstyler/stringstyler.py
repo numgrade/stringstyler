@@ -34,7 +34,7 @@ color_codes_fg = {
 }
 
 
-def print_color_text(
+def print_styler(
     text: str, color: str = "white", style: Optional[str] = None, **kwargs
 ) -> None:
     """Prints colored text to the console.
@@ -60,7 +60,7 @@ def print_color_text(
     print(f"{start}{text}{end}", **kwargs)
 
 
-def color_text(color: str = "white", style: Optional[str] = None):
+def text_styler(color: str = "white", style: Optional[str] = None):
     """Decorator to return colored text.
 
     Args:
@@ -92,15 +92,15 @@ def color_text(color: str = "white", style: Optional[str] = None):
 
 
 if __name__ == "__main__":
-    print_color_text("Hello, World!", "red")
-    print_color_text("Hello, World!", "red", style="bold")
-    print_color_text("Hello, World!", "green", style="underline")
-    print_color_text("Hello, World!", "blue", style="reverse")
-    print_color_text("Hello, World!", "magenta", style="invisible")
-    print_color_text("Hello, World!", "cyan", style="strikethrough")
+    print_styler("Hello, World!", "red")
+    print_styler("Hello, World!", "red", style="bold")
+    print_styler("Hello, World!", "green", style="underline")
+    print_styler("Hello, World!", "blue", style="reverse")
+    print_styler("Hello, World!", "magenta", style="invisible")
+    print_styler("Hello, World!", "cyan", style="strikethrough")
 
     # Using the decorator
-    @color_text(color="yellow", style="bold")
+    @text_styler(color="yellow", style="bold")
     def greet(name: str):
         """Greets a person by name."""
         return f"Hello, {name}!"

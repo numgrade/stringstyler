@@ -10,7 +10,7 @@ The __version__ variable is also defined in this file.
 """
 
 import importlib.metadata
-from .stringstyler import print_color_text, color_text  # noqa: F401
+from .stringstyler import print_styler, text_styler  # noqa: F401
 # noqa: F401 is used to ignore flake8, ruff... warning for unused import
 
 
