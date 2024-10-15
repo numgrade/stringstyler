@@ -10,7 +10,7 @@ The __version__ variable is also defined in this file.
 """
 
 import importlib.metadata
-from .colortext import print_color_text, color_text
+from .stringstyler import print_color_text, color_text
 
 
 # get version from pyproject.toml / colortext is the package name

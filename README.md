@@ -7,7 +7,7 @@ Add color to your text in your console easily !
 The print_color_text() function :
 
 ```python
-from colortext import print_color_text
+from stringstyler import print_color_text
 
 
 print_color_text('Hello, World!', 'red')

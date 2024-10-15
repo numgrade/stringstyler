@@ -1,10 +1,10 @@
-"""Tests for the colortext module."""
+"""Tests for the stringstyler module."""
 
 from io import StringIO
 
 import pytest
 
-from colortext import print_color_text, color_text
+from stringstyler import print_color_text, color_text
 
 
 @pytest.mark.parametrize(
