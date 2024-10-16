@@ -3,9 +3,9 @@
 
 **Add color and change the format of your strings !**
 
-[![PyPI Version](https://img.shields.io/pypi/pyversions/stringstyler)](https://pypi.org/project/stringstyler/)
-[![License](https://img.shields.io/badge/license-new%20BSD-blue.svg)](https://github.com/numgrade/stringstyler/blob/main/LICENSE)
-![Python 3](https://img.shields.io/badge/python-3-blue.svg)
+[![PyPI Version](https://img.shields.io/pypi/v/stringstyler?color=%2334D058&label=pypi%20package)](https://pypi.org/project/stringstyler/)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/numgrade/stringstyler/blob/main/LICENSE)
+![Python 3](https://img.shields.io/badge/Python%20version-3.9%2B-blue)
 
 ---
 
