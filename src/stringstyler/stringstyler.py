@@ -6,7 +6,7 @@
 
 from functools import wraps
 import string
-from typing import Optional
+from typing import Callable, Optional
 
 
 TEMPLATE = string.Template("\033[${code}m")
@@ -60,7 +60,7 @@ def print_styler(
     print(f"{start}{text}{end}", **kwargs)
 
 
-def text_styler(color: str = "white", style: Optional[str] = None):
+def text_styler(color: str = "white", style: Optional[str] = None) -> Callable:
     """Decorator to return colored text.
 
     Args:
