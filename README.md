@@ -27,12 +27,12 @@ $ pip install stringstyler
 from stringstyler import print_styler
 
 
-print_color_text('Hello, World!', 'red')
-print_color_text('Hello, World!', 'red', style='bold')
-print_color_text('Hello, World!', 'green', style='underline')
-print_color_text('Hello, World!', 'blue', style='reverse')
-print_color_text('Hello, World!', 'magenta', style='invisible')
-print_color_text('Hello, World!', 'cyan', style='strikethrough')
+print_styler('Hello, World!', 'red')
+print_styler('Hello, World!', 'red', style='bold')
+print_styler('Hello, World!', 'green', style='underline')
+print_styler('Hello, World!', 'blue', style='reverse')
+print_styler('Hello, World!', 'magenta', style='invisible')
+print_styler('Hello, World!', 'cyan', style='strikethrough')
 ```
 
 ### The text_styler decorator
